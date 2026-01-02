@@ -1,6 +1,6 @@
-Friday's Site
+Weston's Site
 
-Here is a link to your live site: https://friday-site.vercel.app/
+Here is a link to your live site: https://weston-site.vercel.app/
 
 (It is built using Next.js, React, Tailwind CSS and deployed on Vercel.)
 
