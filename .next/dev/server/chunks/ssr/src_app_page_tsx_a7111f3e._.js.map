@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/eileenzelaya/weston-site/src/app/page.tsx"],"sourcesContent":["\"use client\";\n\nexport default function HomePage() {\n  return (\n    <main\n      className=\"\n        w-full\n      min-h-[105vh]\n      pt-0\n      pb-20\n      bg-cover md:bg-cover\n      bg-top md:bg-center\n      transition-colors duration-300\n     -mt-30\n      \"\n      style={{\n        backgroundImage: \"url('/drawing/14.jpg')\",\n      }}\n    >\n    </main>\n  );\n}\n\n"],"names":[],"mappings":";;;;;AAAA;;AAEe,SAAS;IACtB,qBACE,8OAAC;QACC,WAAU;QAUV,OAAO;YACL,iBAAiB;QACnB;;;;;;AAIN","debugId":null}}]
+}

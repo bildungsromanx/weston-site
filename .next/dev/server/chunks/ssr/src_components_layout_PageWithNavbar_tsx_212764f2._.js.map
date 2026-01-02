@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/eileenzelaya/weston-site/src/components/layout/PageWithNavbar.tsx"],"sourcesContent":["\"use client\";\n\nimport Navbar from \"@/components/layout/Navbar\";\n\nexport default function PageWithNavbar({\n  children,\n  variant = \"dark\",\n}: {\n  children: React.ReactNode;\n  variant?: \"light\" | \"dark\";\n}) {\n  return (\n    <>\n      <Navbar variant={variant} />\n      {children}\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS,eAAe,EACrC,QAAQ,EACR,UAAU,MAAM,EAIjB;IACC,qBACE;;0BACE,8OAAC,iJAAM;gBAAC,SAAS;;;;;;YAChB;;;AAGP","debugId":null}}]
+}

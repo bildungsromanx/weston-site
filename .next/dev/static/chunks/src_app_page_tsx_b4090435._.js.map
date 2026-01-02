@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/eileenzelaya/weston-site/src/app/page.tsx"],"sourcesContent":["\"use client\";\n\nexport default function HomePage() {\n  return (\n    <main\n      className=\"\n        w-full\n      min-h-[105vh]\n      pt-0\n      pb-20\n      bg-cover md:bg-cover\n      bg-top md:bg-center\n      transition-colors duration-300\n     -mt-30\n      \"\n      style={{\n        backgroundImage: \"url('/drawing/14.jpg')\",\n      }}\n    >\n    </main>\n  );\n}\n\n"],"names":["c","_c","HomePage","$","$i","Symbol","for","t0","backgroundImage"],"mappings":";;;;;AAAa,SAAAA,CAAA,IAAAC,EAAA;AAAb,YAAY;;;AAEG;IAAA,MAAAE,CAAA,OAAAF,gLAAA,EAAA;IAAA,IAAAE,CAAA,CAAA,EAAA,KAAA,oEAAA;QAAA,IAAA,IAAAC,EAAA,GAAA,GAAAA,EAAA,GAAA,GAAAA,EAAA,IAAA,EAAA;YAAAD,CAAA,CAAAC,EAAA,CAAA,GAAAC,MAAA,CAAAC,GAAA,CAAA;QAAA;QAAAH,CAAA,CAAA,EAAA,GAAA;IAAA;IAAA,IAAAI,EAAA;IAAA,IAAAJ,CAAA,CAAA,EAAA,KAAAE,MAAA,CAAAC,GAAA,CAAA,8BAAA;QAEXC,EAAA,iBAAA,6LAAA,IAeO;YAdK,SAST,CATS,CAAA,kLASV,CAAC;YACM,KAEN,CAFM,CAAA;gBAAAC,eAAA,EACY;YACnB,EAAC,GAEI;;;;;;QAAAL,CAAA,CAAA,EAAA,GAAAI,EAAA;IAAA,OAAA;QAAAA,EAAA,GAAAJ,CAAA,CAAA,EAAA;IAAA;IAAA,OAfPI,EAeO;AAAA;KAjBIL,SAAA","ignoreList":[],"debugId":null}}]
+}
