@@ -2,6 +2,22 @@ module.exports = [
 "[project]/src/components/layout/PageWithNavbar.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// "use client";
+// import Navbar from "@/components/layout/Navbar";
+// export default function PageWithNavbar({
+//   children,
+//   variant = "dark",
+// }: {
+//   children: React.ReactNode;
+//   variant?: "light" | "dark";
+// }) {
+//   return (
+//     <>
+//       <Navbar variant={variant} />
+//       {children}
+//     </>
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>PageWithNavbar
@@ -18,7 +34,7 @@ function PageWithNavbar({ children, variant = "dark" }) {
                 variant: variant
             }, void 0, false, {
                 fileName: "[project]/src/components/layout/PageWithNavbar.tsx",
-                lineNumber: 14,
+                lineNumber: 33,
                 columnNumber: 7
             }, this),
             children
@@ -29,63 +45,6 @@ function PageWithNavbar({ children, variant = "dark" }) {
 "[project]/src/app/drawings/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// "use client";
-// import { useEffect, useState } from "react";
-// import PageWithNavbar from "@/components/layout/PageWithNavbar";
-// const images = [
-//   "/drawing/2a.jpeg",
-//   "/drawing/6a.jpeg",
-//   "/drawing/5b.jpeg",
-//   "/drawing/9.jpg",
-//   "/drawing/5a.jpg",
-// ];
-// export default function DrawingsPage() {
-//   const [index, setIndex] = useState(0);
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//       setIndex((prev) => (prev + 1) % images.length);
-//     }, 6000);
-//     return () => clearInterval(interval);
-//   }, []);
-//   return (
-//     <PageWithNavbar variant="light">
-//     <main
-//       className="
-//         relative
-//         w-full
-//         min-h-[105vh]
-//         pt-24
-//         pb-20
-//         bg-top md:bg-center
-//         -mt-30
-//         overflow-hidden
-//       "
-//     >
-//       {/* Background slideshow (non-fixed) */}
-//       <div className="absolute inset-0 -z-10">
-//         {images.map((src, i) => (
-//           <div
-//             key={i}
-//             className={`
-//               absolute inset-0 bg-cover bg-center transition-opacity duration-[2000ms]
-//               ${i === index ? "opacity-60" : "opacity-0"}
-//             `}
-//             style={{ backgroundImage: `url(${src})` }}
-//           />
-//         ))}
-//       </div>
-//       {/* Page content */}
-//       <div className="relative min-h-[105vh] -mt-30 flex items-center justify-center">
-//         <div className="text-center">
-//           <h1 className="text-4xl mb-12 tracking-wide">Drawings</h1>
-//           <h1 className="text-4xl mb-12 tracking-wide">Illustrations</h1>
-//           <h1 className="text-4xl mb-12 tracking-wide">Year</h1>
-//         </div>
-//       </div>
-//     </main>
-//     </PageWithNavbar>
-//   );
-// }
 __turbopack_context__.s([
     "default",
     ()=>DrawingsPage
@@ -129,12 +88,12 @@ function DrawingsPage() {
                             }
                         }, i, false, {
                             fileName: "[project]/src/app/drawings/page.tsx",
-                            lineNumber: 108,
+                            lineNumber: 41,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/drawings/page.tsx",
-                    lineNumber: 106,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -147,7 +106,7 @@ function DrawingsPage() {
                                 children: "Drawings"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/drawings/page.tsx",
-                                lineNumber: 122,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -155,7 +114,7 @@ function DrawingsPage() {
                                 children: "Illustrations"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/drawings/page.tsx",
-                                lineNumber: 123,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -163,29 +122,29 @@ function DrawingsPage() {
                                 children: "Year"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/drawings/page.tsx",
-                                lineNumber: 124,
+                                lineNumber: 57,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/drawings/page.tsx",
-                        lineNumber: 121,
+                        lineNumber: 54,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/drawings/page.tsx",
-                    lineNumber: 120,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/drawings/page.tsx",
-            lineNumber: 93,
+            lineNumber: 26,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/drawings/page.tsx",
-        lineNumber: 92,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }

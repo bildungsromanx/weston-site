@@ -32,7 +32,7 @@ export default function Navbar({ variant = "dark" }: { variant?: "light" | "dark
         {/* Logo → homepage button */}
         <Link href="/" className="flex items-center">
           <Image
-            src={isDark ? "/logow.png" : "/logob.png"} // ← swap logos
+            src={isDark ? "/logow.png" : "/logow.png"} // ← swap logos
             alt="Logo"
             width={80}
             height={80}
@@ -42,7 +42,7 @@ export default function Navbar({ variant = "dark" }: { variant?: "light" | "dark
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6 text-md">
-          <Link href="/drawings">Drawing</Link>
+          <Link href="/drawings">Portfolio</Link>
           <Link href="/contact">Contact</Link>
           <Link href="/about">About</Link>
         </div>
@@ -74,7 +74,7 @@ export default function Navbar({ variant = "dark" }: { variant?: "light" | "dark
       {open && (
         <div className="fixed inset-0 bg-black/70 backdrop-blur-md animate-overlay z-50 flex flex-col items-center justify-center gap-15 text-5xl font-light text-white">
           <Link href="/drawings" onClick={() => setOpen(false)} className="menu-item menu-delay-2">
-            Drawings
+            Portfolio
           </Link>
           <Link href="/contact" onClick={() => setOpen(false)} className="menu-item menu-delay-3">
             Contact

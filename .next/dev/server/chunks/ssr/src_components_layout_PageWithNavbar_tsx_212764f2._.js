@@ -2,6 +2,22 @@ module.exports = [
 "[project]/src/components/layout/PageWithNavbar.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// "use client";
+// import Navbar from "@/components/layout/Navbar";
+// export default function PageWithNavbar({
+//   children,
+//   variant = "dark",
+// }: {
+//   children: React.ReactNode;
+//   variant?: "light" | "dark";
+// }) {
+//   return (
+//     <>
+//       <Navbar variant={variant} />
+//       {children}
+//     </>
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>PageWithNavbar
@@ -18,7 +34,7 @@ function PageWithNavbar({ children, variant = "dark" }) {
                 variant: variant
             }, void 0, false, {
                 fileName: "[project]/src/components/layout/PageWithNavbar.tsx",
-                lineNumber: 14,
+                lineNumber: 33,
                 columnNumber: 7
             }, this),
             children

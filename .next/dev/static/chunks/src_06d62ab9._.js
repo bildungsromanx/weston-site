@@ -2,6 +2,22 @@
 "[project]/src/components/layout/PageWithNavbar.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// "use client";
+// import Navbar from "@/components/layout/Navbar";
+// export default function PageWithNavbar({
+//   children,
+//   variant = "dark",
+// }: {
+//   children: React.ReactNode;
+//   variant?: "light" | "dark";
+// }) {
+//   return (
+//     <>
+//       <Navbar variant={variant} />
+//       {children}
+//     </>
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>PageWithNavbar
@@ -15,11 +31,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$
 ;
 function PageWithNavbar(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(6);
-    if ($[0] !== "c484d066960c0247b8e0b90c56715ce30a3db33af3c32a0231f01cbb2d2a329d") {
+    if ($[0] !== "e29b8bab044094a2a0734f159c34bd03b7644ef0ad172e6443ee3012b6cb6f6e") {
         for(let $i = 0; $i < 6; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c484d066960c0247b8e0b90c56715ce30a3db33af3c32a0231f01cbb2d2a329d";
+        $[0] = "e29b8bab044094a2a0734f159c34bd03b7644ef0ad172e6443ee3012b6cb6f6e";
     }
     const { children, variant: t1 } = t0;
     const variant = t1 === undefined ? "dark" : t1;
@@ -29,7 +45,7 @@ function PageWithNavbar(t0) {
             variant: variant
         }, void 0, false, {
             fileName: "[project]/src/components/layout/PageWithNavbar.tsx",
-            lineNumber: 20,
+            lineNumber: 43,
             columnNumber: 10
         }, this);
         $[1] = variant;
@@ -63,63 +79,6 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/src/app/drawings/page.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// "use client";
-// import { useEffect, useState } from "react";
-// import PageWithNavbar from "@/components/layout/PageWithNavbar";
-// const images = [
-//   "/drawing/2a.jpeg",
-//   "/drawing/6a.jpeg",
-//   "/drawing/5b.jpeg",
-//   "/drawing/9.jpg",
-//   "/drawing/5a.jpg",
-// ];
-// export default function DrawingsPage() {
-//   const [index, setIndex] = useState(0);
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//       setIndex((prev) => (prev + 1) % images.length);
-//     }, 6000);
-//     return () => clearInterval(interval);
-//   }, []);
-//   return (
-//     <PageWithNavbar variant="light">
-//     <main
-//       className="
-//         relative
-//         w-full
-//         min-h-[105vh]
-//         pt-24
-//         pb-20
-//         bg-top md:bg-center
-//         -mt-30
-//         overflow-hidden
-//       "
-//     >
-//       {/* Background slideshow (non-fixed) */}
-//       <div className="absolute inset-0 -z-10">
-//         {images.map((src, i) => (
-//           <div
-//             key={i}
-//             className={`
-//               absolute inset-0 bg-cover bg-center transition-opacity duration-[2000ms]
-//               ${i === index ? "opacity-60" : "opacity-0"}
-//             `}
-//             style={{ backgroundImage: `url(${src})` }}
-//           />
-//         ))}
-//       </div>
-//       {/* Page content */}
-//       <div className="relative min-h-[105vh] -mt-30 flex items-center justify-center">
-//         <div className="text-center">
-//           <h1 className="text-4xl mb-12 tracking-wide">Drawings</h1>
-//           <h1 className="text-4xl mb-12 tracking-wide">Illustrations</h1>
-//           <h1 className="text-4xl mb-12 tracking-wide">Year</h1>
-//         </div>
-//       </div>
-//     </main>
-//     </PageWithNavbar>
-//   );
-// }
 __turbopack_context__.s([
     "default",
     ()=>DrawingsPage
@@ -144,11 +103,11 @@ const images = [
 function DrawingsPage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(10);
-    if ($[0] !== "380bf3cccbd7b6b2244d917121c141b6452410587057bbf7c92595759f9d38a2") {
+    if ($[0] !== "bd5a042b759f8dcbe1b954af5b7f96adf7a7686afebdf76331b6910cce3719a8") {
         for(let $i = 0; $i < 10; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "380bf3cccbd7b6b2244d917121c141b6452410587057bbf7c92595759f9d38a2";
+        $[0] = "bd5a042b759f8dcbe1b954af5b7f96adf7a7686afebdf76331b6910cce3719a8";
     }
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     let t0;
@@ -185,7 +144,7 @@ function DrawingsPage() {
                     }
                 }, i, false, {
                     fileName: "[project]/src/app/drawings/page.tsx",
-                    lineNumber: 104,
+                    lineNumber: 40,
                     columnNumber: 49
                 }, this)
         }["DrawingsPage[images.map()]"]);
@@ -201,7 +160,7 @@ function DrawingsPage() {
             children: t2
         }, void 0, false, {
             fileName: "[project]/src/app/drawings/page.tsx",
-            lineNumber: 118,
+            lineNumber: 54,
             columnNumber: 10
         }, this);
         $[5] = t2;
@@ -221,7 +180,7 @@ function DrawingsPage() {
                         children: "Drawings"
                     }, void 0, false, {
                         fileName: "[project]/src/app/drawings/page.tsx",
-                        lineNumber: 126,
+                        lineNumber: 62,
                         columnNumber: 112
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -229,7 +188,7 @@ function DrawingsPage() {
                         children: "Illustrations"
                     }, void 0, false, {
                         fileName: "[project]/src/app/drawings/page.tsx",
-                        lineNumber: 126,
+                        lineNumber: 62,
                         columnNumber: 170
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -237,18 +196,18 @@ function DrawingsPage() {
                         children: "Year"
                     }, void 0, false, {
                         fileName: "[project]/src/app/drawings/page.tsx",
-                        lineNumber: 126,
+                        lineNumber: 62,
                         columnNumber: 233
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/drawings/page.tsx",
-                lineNumber: 126,
+                lineNumber: 62,
                 columnNumber: 83
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/drawings/page.tsx",
-            lineNumber: 126,
+            lineNumber: 62,
             columnNumber: 10
         }, this);
         $[7] = t4;
@@ -267,12 +226,12 @@ function DrawingsPage() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/drawings/page.tsx",
-                lineNumber: 133,
+                lineNumber: 69,
                 columnNumber: 42
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/drawings/page.tsx",
-            lineNumber: 133,
+            lineNumber: 69,
             columnNumber: 10
         }, this);
         $[8] = t3;

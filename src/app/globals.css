@@ -1,5 +1,6 @@
-@import "tailwindcss";
-/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap'); */
+/* @import "tailwindcss";
+
+
 
 .eb-garamond {
   font-family: "EB Garamond", serif;
@@ -13,8 +14,26 @@ body {
 }
 header, footer {
   font-family: "EB Garamond", serif;
+} */
+
+
+
+@import "tailwindcss";
+
+/* Global serif font */
+body {
+  font-family: "Cormorant Garamond", serif;
 }
 
+header,
+footer {
+  font-family: "Cormorant Garamond", serif;
+}
+
+/* Optional utility class if you want to apply it selectively */
+.cormorant {
+  font-family: "Cormorant Garamond", serif;
+}
 
 @keyframes fadeInOverlay {
   from {

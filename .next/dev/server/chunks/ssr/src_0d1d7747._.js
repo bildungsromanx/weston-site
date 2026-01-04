@@ -2,6 +2,22 @@ module.exports = [
 "[project]/src/components/layout/PageWithNavbar.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// "use client";
+// import Navbar from "@/components/layout/Navbar";
+// export default function PageWithNavbar({
+//   children,
+//   variant = "dark",
+// }: {
+//   children: React.ReactNode;
+//   variant?: "light" | "dark";
+// }) {
+//   return (
+//     <>
+//       <Navbar variant={variant} />
+//       {children}
+//     </>
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>PageWithNavbar
@@ -18,7 +34,7 @@ function PageWithNavbar({ children, variant = "dark" }) {
                 variant: variant
             }, void 0, false, {
                 fileName: "[project]/src/components/layout/PageWithNavbar.tsx",
-                lineNumber: 14,
+                lineNumber: 33,
                 columnNumber: 7
             }, this),
             children
@@ -29,46 +45,6 @@ function PageWithNavbar({ children, variant = "dark" }) {
 "[project]/src/app/about/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// "use client";
-// import Image from "next/image";
-// import PageWithNavbar from "@/components/layout/PageWithNavbar";
-// export default function AboutPage() {
-//   return (
-//     <PageWithNavbar variant="light">
-//     <main
-//       className="
-//         min-h-screen 
-//         w-full 
-//         px-6 
-//         pt-20 
-//         pb-20 
-//         flex 
-//         flex-col 
-//         items-center 
-//         text-center
-//         transition-colors duration-300
-//         bg-[#faf6f1] text-[#242424]
-//       "
-//     >
-//       <div className="max-w-xl mb-12">
-//         <h1 className="text-3xl mb-4">About Weston</h1>
-//         <p className="text-base opacity-80 leading-relaxed">
-//           Weston is a person he does cool things.
-//         </p>
-//       </div>
-//       <div className="w-full max-w-sm">
-//         <Image
-//           src="/about.jpg"
-//           alt="Weston"
-//           width={600}
-//           height={600}
-//           className="w-full h-auto object-cover"
-//         />
-//       </div>
-//     </main>
-//     </PageWithNavbar>
-//   );
-// }
 __turbopack_context__.s([
     "default",
     ()=>AboutPage
@@ -94,7 +70,7 @@ function AboutPage() {
                             children: "About Weston"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.tsx",
-                            lineNumber: 62,
+                            lineNumber: 14,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -102,13 +78,13 @@ function AboutPage() {
                             children: "Weston is a person he does cool things."
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.tsx",
-                            lineNumber: 63,
+                            lineNumber: 15,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/about/page.tsx",
-                    lineNumber: 61,
+                    lineNumber: 13,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -121,23 +97,23 @@ function AboutPage() {
                         className: "w-full h-auto object-cover"
                     }, void 0, false, {
                         fileName: "[project]/src/app/about/page.tsx",
-                        lineNumber: 69,
+                        lineNumber: 21,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/about/page.tsx",
-                    lineNumber: 68,
+                    lineNumber: 20,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/about/page.tsx",
-            lineNumber: 58,
+            lineNumber: 10,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/about/page.tsx",
-        lineNumber: 57,
+        lineNumber: 9,
         columnNumber: 5
     }, this);
 }

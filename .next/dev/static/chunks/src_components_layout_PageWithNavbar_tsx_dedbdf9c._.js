@@ -2,6 +2,22 @@
 "[project]/src/components/layout/PageWithNavbar.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// "use client";
+// import Navbar from "@/components/layout/Navbar";
+// export default function PageWithNavbar({
+//   children,
+//   variant = "dark",
+// }: {
+//   children: React.ReactNode;
+//   variant?: "light" | "dark";
+// }) {
+//   return (
+//     <>
+//       <Navbar variant={variant} />
+//       {children}
+//     </>
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>PageWithNavbar
@@ -15,11 +31,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$layout$
 ;
 function PageWithNavbar(t0) {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(6);
-    if ($[0] !== "c484d066960c0247b8e0b90c56715ce30a3db33af3c32a0231f01cbb2d2a329d") {
+    if ($[0] !== "e29b8bab044094a2a0734f159c34bd03b7644ef0ad172e6443ee3012b6cb6f6e") {
         for(let $i = 0; $i < 6; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c484d066960c0247b8e0b90c56715ce30a3db33af3c32a0231f01cbb2d2a329d";
+        $[0] = "e29b8bab044094a2a0734f159c34bd03b7644ef0ad172e6443ee3012b6cb6f6e";
     }
     const { children, variant: t1 } = t0;
     const variant = t1 === undefined ? "dark" : t1;
@@ -29,7 +45,7 @@ function PageWithNavbar(t0) {
             variant: variant
         }, void 0, false, {
             fileName: "[project]/src/components/layout/PageWithNavbar.tsx",
-            lineNumber: 20,
+            lineNumber: 43,
             columnNumber: 10
         }, this);
         $[1] = variant;

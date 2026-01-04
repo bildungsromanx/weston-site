@@ -52,27 +52,6 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$c
 "[project]/src/app/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-// "use client";
-// export default function HomePage() {
-//   return (
-//     <main
-//       className="
-//         w-full
-//       min-h-[105vh]
-//       pt-0
-//       pb-20
-//       bg-cover md:bg-cover
-//       bg-top md:bg-center
-//       transition-colors duration-300
-//      -mt-30
-//       "
-//       style={{
-//         backgroundImage: "url('/drawing/14.jpg')",
-//       }}
-//     >
-//     </main>
-//   );
-// }
 __turbopack_context__.s([
     "default",
     ()=>HomePage
@@ -93,17 +72,17 @@ function HomePage() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/app/page.tsx",
-                lineNumber: 33,
+                lineNumber: 7,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/page.tsx",
-            lineNumber: 32,
+            lineNumber: 6,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/page.tsx",
-        lineNumber: 31,
+        lineNumber: 5,
         columnNumber: 5
     }, this);
 }
