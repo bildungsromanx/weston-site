@@ -6,10 +6,10 @@ export default function Footer() {
     <footer
       className={`
         w-full 
-        py-16 px-6
+        py-8 px-6
         text-center
         transition-colors duration-300
-        bg-[#faf6f1] text-[#242424]
+        bg-[#F1F1EF] text-[#242424]
       `}
     >
       <div className="max-w-2xl mx-auto flex flex-col items-center">
@@ -21,7 +21,7 @@ export default function Footer() {
         </p>
         <a
           href="mailto:westonthrockmorton@gmail.com"
-          className="text-sm opacity-80 hover:opacity-100 transition-opacity"
+          className="text-sm opacity-80 underline hover:opacity-100 transition-opacity"
         >
           westonthrockmorton@gmail.com
         </a>

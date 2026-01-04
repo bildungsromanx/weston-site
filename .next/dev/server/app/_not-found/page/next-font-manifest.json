@@ -1,6 +1,10 @@
 {
   "pages": {},
-  "app": {},
-  "appUsingSizeAdjust": false,
+  "app": {
+    "[project]/src/app/_not-found/page": [
+      "static/media/16e0e94777d7bd9f-s.p.53426b5e.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": false
 }

@@ -5,10 +5,10 @@ import PageWithNavbar from "@/components/layout/PageWithNavbar";
 import Link from "next/link";
 
 const images = [
-  "/drawing/9.jpg",
-  "/drawing/2a.jpeg",
-  "/drawing/5b.jpeg",
-  "/drawing/5a.jpg",
+  "/drawing/9.webp",
+  "/details/2a.webp",
+  "/details/5b.webp",
+  "/details/5a.webp",
 ];
 
 export default function DrawingsPage() {
@@ -23,18 +23,7 @@ export default function DrawingsPage() {
 
   return (
     <PageWithNavbar variant="light">
-      <main
-        className="
-          relative
-          w-full
-          min-h-[105vh]
-          pt-24
-          pb-20
-          bg-top md:bg-center
-          -mt-30
-          overflow-hidden
-        "
-      >
+   <main className="relative w-full min-h-[105vh] pt-24 pb-20 bg-top md:bg-center -mt-30 overflow-hidden">
         {/* Background slideshow */}
         <div className="absolute inset-0 -z-10">
           {images.map((src, i) => (

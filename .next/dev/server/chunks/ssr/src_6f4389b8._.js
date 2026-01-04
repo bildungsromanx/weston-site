@@ -10,7 +10,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-ssr] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
@@ -50,23 +52,23 @@ function Navbar({ variant = "dark" }) {
                             className: "block"
                         }, void 0, false, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
-                            lineNumber: 34,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Navbar.tsx",
-                        lineNumber: 33,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "hidden md:flex gap-6 text-md",
+                        className: "hidden md:flex gap-3 text-lg font-bold",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/drawings",
                                 children: "Portfolio"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/layout/Navbar.tsx",
-                                lineNumber: 45,
+                                lineNumber: 47,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -74,7 +76,7 @@ function Navbar({ variant = "dark" }) {
                                 children: "Contact"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/layout/Navbar.tsx",
-                                lineNumber: 46,
+                                lineNumber: 48,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -82,13 +84,38 @@ function Navbar({ variant = "dark" }) {
                                 children: "About"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/layout/Navbar.tsx",
-                                lineNumber: 47,
+                                lineNumber: 49,
                                 columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/",
+                                children: "Home"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Navbar.tsx",
+                                lineNumber: 50,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "https://instagram.com/throckmorton.jpg",
+                                target: "_blank",
+                                rel: "noopener noreferrer",
+                                className: "opacity-80 hover:opacity-100 transition-opacity",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaInstagram"], {
+                                    className: "text-xl translate-y-[4px]"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/layout/Navbar.tsx",
+                                    lineNumber: 57,
+                                    columnNumber: 3
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Navbar.tsx",
+                                lineNumber: 51,
+                                columnNumber: 1
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/layout/Navbar.tsx",
-                        lineNumber: 44,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -101,76 +128,112 @@ function Navbar({ variant = "dark" }) {
                                     className: `absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${open ? "rotate-45 top-3" : "top-2"}`
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
-                                    lineNumber: 57,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: `absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${open ? "-rotate-45 top-3" : "top-4"}`
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/layout/Navbar.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
-                            lineNumber: 55,
+                            lineNumber: 66,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Navbar.tsx",
-                        lineNumber: 51,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/layout/Navbar.tsx",
-                lineNumber: 30,
+                lineNumber: 32,
                 columnNumber: 7
             }, this),
             open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "fixed inset-0 bg-black/70 backdrop-blur-md animate-overlay z-50 flex flex-col items-center justify-center gap-15 text-5xl font-light text-white",
+                className: "fixed inset-0 bg-black/70 backdrop-blur-md animate-overlay z-50  flex flex-col justify-between items-center  pt-40 pb-16 text-5xl font-light text-white",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/drawings",
-                        onClick: ()=>setOpen(false),
-                        className: "menu-item menu-delay-2",
-                        children: "Portfolio"
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex flex-col items-center gap-12",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/drawings",
+                                onClick: ()=>setOpen(false),
+                                className: "menu-item menu-delay-2",
+                                children: "Portfolio"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Navbar.tsx",
+                                lineNumber: 113,
+                                columnNumber: 7
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/contact",
+                                onClick: ()=>setOpen(false),
+                                className: "menu-item menu-delay-3",
+                                children: "Contact"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Navbar.tsx",
+                                lineNumber: 116,
+                                columnNumber: 7
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/about",
+                                onClick: ()=>setOpen(false),
+                                className: "menu-item menu-delay-1",
+                                children: "About"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Navbar.tsx",
+                                lineNumber: 119,
+                                columnNumber: 7
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/",
+                                onClick: ()=>setOpen(false),
+                                className: "menu-item menu-delay-1",
+                                children: "Home"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/layout/Navbar.tsx",
+                                lineNumber: 122,
+                                columnNumber: 7
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/layout/Navbar.tsx",
-                        lineNumber: 76,
-                        columnNumber: 11
+                        lineNumber: 112,
+                        columnNumber: 5
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/contact",
-                        onClick: ()=>setOpen(false),
-                        className: "menu-item menu-delay-3",
-                        children: "Contact"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                        href: "https://instagram.com/throckmorton.jpg",
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        className: "opacity-80 hover:opacity-100 transition-opacity mb-10",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaInstagram"], {
+                            className: "text-4xl translate-y-[2px]"
+                        }, void 0, false, {
+                            fileName: "[project]/src/components/layout/Navbar.tsx",
+                            lineNumber: 134,
+                            columnNumber: 7
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Navbar.tsx",
-                        lineNumber: 79,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/about",
-                        onClick: ()=>setOpen(false),
-                        className: "menu-item menu-delay-1",
-                        children: "About"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/layout/Navbar.tsx",
-                        lineNumber: 82,
-                        columnNumber: 11
+                        lineNumber: 128,
+                        columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/layout/Navbar.tsx",
-                lineNumber: 75,
-                columnNumber: 9
+                lineNumber: 107,
+                columnNumber: 3
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/layout/Navbar.tsx",
-        lineNumber: 20,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }
@@ -227,63 +290,63 @@ __turbopack_context__.s([
 ]);
 const drawings = [
     {
-        src: "/drawing/1.jpg",
+        src: "/drawing/1.webp",
         year: 2024
     },
     {
-        src: "/drawing/2.jpg",
+        src: "/drawing/2.webp",
         year: 2024
     },
     {
-        src: "/drawing/3.jpg",
+        src: "/drawing/3.webp",
         year: 2024
     },
     {
-        src: "/drawing/4.jpg",
+        src: "/drawing/4.webp",
         year: 2025
     },
     {
-        src: "/drawing/5.jpg",
+        src: "/drawing/5.webp",
         year: 2025
     },
     {
-        src: "/drawing/6.jpg",
+        src: "/drawing/6.webp",
         year: 2024
     },
     {
-        src: "/drawing/7.jpg",
+        src: "/drawing/7.webp",
         year: 2024
     },
     {
-        src: "/drawing/8.jpg",
+        src: "/drawing/8.webp",
         year: 2024
     },
     {
-        src: "/drawing/9.jpg",
+        src: "/drawing/9.webp",
         year: 2025
     },
     {
-        src: "/drawing/10.jpg",
+        src: "/drawing/10.webp",
         year: 2025
     },
     {
-        src: "/drawing/11.jpg",
+        src: "/drawing/11.webp",
         year: 2025
     },
     {
-        src: "/drawing/12.jpg",
+        src: "/drawing/12.webp",
         year: 2024
     },
     {
-        src: "/drawing/13.jpg",
+        src: "/drawing/13.webp",
         year: 2024
     },
     {
-        src: "/drawing/14.jpg",
+        src: "/drawing/14.webp",
         year: 2025
     },
     {
-        src: "/drawing/15.jpg",
+        src: "/drawing/15.webp",
         year: 2025
     }
 ];
@@ -355,7 +418,7 @@ function GalleryPage() {
             className: "pt-2 pb-20 max-w-4xl mx-auto px-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "text-4xl tracking-wide text-center",
+                    className: "text-3xl text-center",
                     children: "Hidden Waters 2024–2025"
                 }, void 0, false, {
                     fileName: "[project]/src/app/gallery/page.tsx",
@@ -363,7 +426,7 @@ function GalleryPage() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-center max-w-2xl mx-auto mt-6 mb-12 text-lg leading-relaxed",
+                    className: "text-center max-w-2xl mx-auto mt-6 mb-12 text-md leading-relaxed",
                     children: "These monochromatic drawings is a continuous meditative series that largely uses techniques used in automatic drawing. With motifs seen in medieval tapestries, through a kaleidoscope lens of visual storytelling- Hidden Waters is a series that is veiled in layers of graphite with imagery viewed as fragments of lost dreams"
                 }, void 0, false, {
                     fileName: "[project]/src/app/gallery/page.tsx",
@@ -371,7 +434,7 @@ function GalleryPage() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "relative w-full aspect-[4/3] overflow-hidden rounded-md bg-[#faf6f1]",
+                    className: "relative w-full aspect-[4/3] overflow-hidden rounded-md bg-[#FFFFFF]",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$drawings$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["drawings"][index].src,
@@ -385,7 +448,7 @@ function GalleryPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: prev,
-                            className: " absolute left-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white/80 text-black px-3 py-1 rounded-full transition ",
+                            className: " absolute left-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white/80 text-black px-3 py-1  transition ",
                             children: "←"
                         }, void 0, false, {
                             fileName: "[project]/src/app/gallery/page.tsx",
@@ -394,7 +457,7 @@ function GalleryPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: next,
-                            className: " absolute right-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white/80 text-black px-3 py-1 rounded-full transition ",
+                            className: " absolute right-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white/80 text-black px-3 py-1 transition ",
                             children: "→"
                         }, void 0, false, {
                             fileName: "[project]/src/app/gallery/page.tsx",

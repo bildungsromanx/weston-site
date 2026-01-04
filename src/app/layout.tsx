@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cormorant.variable} font-cormorant bg-[#faf6f1] text-[#242424] transition-colors duration-300`}
+        className={`${cormorant.variable} font-cormorant bg-[#FFFFFF] text-[#242424] transition-colors duration-300`}
       >
         {children}
         <Footer />

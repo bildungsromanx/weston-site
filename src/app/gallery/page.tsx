@@ -59,16 +59,16 @@ export default function GalleryPage() {
   return (
     <PageWithNavbar variant="light">
       <main className="pt-2 pb-20 max-w-4xl mx-auto px-6">
-        <h1 className="text-4xl tracking-wide text-center">
+        <h1 className="text-3xl text-center">
           Hidden Waters 2024–2025
         </h1>
 
-        <p className="text-center max-w-2xl mx-auto mt-6 mb-12 text-lg leading-relaxed">
+        <p className="text-center max-w-2xl mx-auto mt-6 mb-12 text-md leading-relaxed">
           These monochromatic drawings is a continuous meditative series that largely uses techniques used in automatic drawing. With motifs seen in medieval tapestries, through a kaleidoscope lens of visual storytelling- Hidden Waters is a series that is veiled in layers of graphite with imagery viewed as fragments of lost dreams
         </p>
 
         {/* Main slideshow */}
-        <div className="relative w-full aspect-[4/3] overflow-hidden rounded-md bg-[#faf6f1]">
+        <div className="relative w-full aspect-[4/3] overflow-hidden rounded-md bg-[#FFFFFF]">
           <Image
             key={drawings[index].src}
             src={drawings[index].src}
@@ -83,7 +83,7 @@ export default function GalleryPage() {
             className="
               absolute left-4 top-1/2 -translate-y-1/2
               bg-white/60 hover:bg-white/80
-              text-black px-3 py-1 rounded-full
+              text-black px-3 py-1 
               transition
             "
           >
@@ -96,7 +96,7 @@ export default function GalleryPage() {
             className="
               absolute right-4 top-1/2 -translate-y-1/2
               bg-white/60 hover:bg-white/80
-              text-black px-3 py-1 rounded-full
+              text-black px-3 py-1
               transition
             "
           >

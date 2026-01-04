@@ -13,16 +13,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function Footer() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "52a6e2eceb14846b2ca16699c3a2a946fa9dd880e18c123911d6beb67192c452") {
+    if ($[0] !== "cfc92cb9112f4d56f1e5819cbf2e9abdaee01ed0078da2f7cf7a2b1754fa8b01") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "52a6e2eceb14846b2ca16699c3a2a946fa9dd880e18c123911d6beb67192c452";
+        $[0] = "cfc92cb9112f4d56f1e5819cbf2e9abdaee01ed0078da2f7cf7a2b1754fa8b01";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-            className: "\n        w-full \n        py-16 px-6\n        text-center\n        transition-colors duration-300\n        bg-[#faf6f1] text-[#242424]\n      ",
+            className: "\n        w-full \n        py-8 px-6\n        text-center\n        transition-colors duration-300\n        bg-[#F1F1EF] text-[#242424]\n      ",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-2xl mx-auto flex flex-col items-center",
                 children: [
@@ -32,7 +32,7 @@ function Footer() {
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Footer.tsx",
                         lineNumber: 14,
-                        columnNumber: 238
+                        columnNumber: 237
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-sm opacity-70 max-w-md mb-6 leading-relaxed",
@@ -40,22 +40,22 @@ function Footer() {
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Footer.tsx",
                         lineNumber: 14,
-                        columnNumber: 306
+                        columnNumber: 305
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "mailto:westonthrockmorton@gmail.com",
-                        className: "text-sm opacity-80 hover:opacity-100 transition-opacity",
+                        className: "text-sm opacity-80 underline hover:opacity-100 transition-opacity",
                         children: "westonthrockmorton@gmail.com"
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Footer.tsx",
                         lineNumber: 14,
-                        columnNumber: 401
+                        columnNumber: 400
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/layout/Footer.tsx",
                 lineNumber: 14,
-                columnNumber: 176
+                columnNumber: 175
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/layout/Footer.tsx",
