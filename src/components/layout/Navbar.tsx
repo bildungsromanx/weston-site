@@ -43,9 +43,8 @@ export default function Navbar({ variant = "dark" }: { variant?: "light" | "dark
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex gap-3 text-lg font-bold">
+        <div className="hidden md:flex gap-3 text-lg">
           <Link href="/drawings">Portfolio</Link>
-          <Link href="/contact">Contact</Link>
           <Link href="/about">About</Link>
           <Link href="/">Home</Link>
 <a
@@ -81,27 +80,6 @@ export default function Navbar({ variant = "dark" }: { variant?: "light" | "dark
         </button>
       </div>
 
-      {/* Full Screen Mobile Menu */}
-
-
-
-      {/* {open && (
-        <div className="fixed inset-0 bg-black/70 backdrop-blur-md animate-overlay z-50 flex flex-col items-center justify-center gap-15 text-5xl font-light text-white">
-          <Link href="/drawings" onClick={() => setOpen(false)} className="menu-item menu-delay-2">
-            Portfolio
-          </Link>
-          <Link href="/contact" onClick={() => setOpen(false)} className="menu-item menu-delay-3">
-            Contact
-          </Link>
-          <Link href="/about" onClick={() => setOpen(false)} className="menu-item menu-delay-1">
-            About
-          </Link>
-          <Link href="/" onClick={() => setOpen(false)} className="menu-item menu-delay-1">
-            Home
-          </Link>
-        </div>
-      )} */}
-
 
 {open && (
   <div className="fixed inset-0 bg-black/70 backdrop-blur-md animate-overlay z-50 
@@ -112,9 +90,6 @@ export default function Navbar({ variant = "dark" }: { variant?: "light" | "dark
     <div className="flex flex-col items-center gap-12">
       <Link href="/drawings" onClick={() => setOpen(false)} className="menu-item menu-delay-2">
         Portfolio
-      </Link>
-      <Link href="/contact" onClick={() => setOpen(false)} className="menu-item menu-delay-3">
-        Contact
       </Link>
       <Link href="/about" onClick={() => setOpen(false)} className="menu-item menu-delay-1">
         About

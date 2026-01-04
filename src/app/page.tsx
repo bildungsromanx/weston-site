@@ -5,9 +5,9 @@ export default function HomePage() {
     <PageWithNavbar variant="dark">
       <div className="w-full">
         <main
-          className="w-full min-h-[105vh] pt-0 pb-20 bg-cover md:bg-cover bg-top md:bg-center transition-colors duration-300 -mt-30"
+          className="w-full min-h-[105vh] pt-0 pb-20 bg-cover md:bg-cover bg-top md:bg-center transition-colors duration-300 -mt-30 opacity-90"
           style={{
-            backgroundImage: "url('/drawing/14.jpg')",
+            backgroundImage: "url('/drawing/14.webp')",
           }}
         >
         </main>

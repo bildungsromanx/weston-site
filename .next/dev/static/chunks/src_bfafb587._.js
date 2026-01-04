@@ -22,12 +22,12 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Navbar(t0) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(32);
-    if ($[0] !== "d15c724ade6a91bddc00e704925ffa770a4227629003a0f4a46438c780f098a3") {
-        for(let $i = 0; $i < 32; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(31);
+    if ($[0] !== "ca06920aa9c695eeec2b92a855a8615bc8c63e8570b98948fb20846a04382587") {
+        for(let $i = 0; $i < 31; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "d15c724ade6a91bddc00e704925ffa770a4227629003a0f4a46438c780f098a3";
+        $[0] = "ca06920aa9c695eeec2b92a855a8615bc8c63e8570b98948fb20846a04382587";
     }
     const { variant: t1 } = t0;
     const variant = t1 === undefined ? "dark" : t1;
@@ -89,7 +89,6 @@ function Navbar(t0) {
     } else {
         t6 = $[5];
     }
-    let t10;
     let t7;
     let t8;
     let t9;
@@ -99,52 +98,41 @@ function Navbar(t0) {
             children: "Portfolio"
         }, void 0, false, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 63,
+            lineNumber: 62,
             columnNumber: 10
         }, this);
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            href: "/contact",
-            children: "Contact"
+            href: "/about",
+            children: "About"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Navbar.tsx",
+            lineNumber: 63,
+            columnNumber: 10
+        }, this);
+        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            href: "/",
+            children: "Home"
         }, void 0, false, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
             lineNumber: 64,
             columnNumber: 10
         }, this);
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            href: "/about",
-            children: "About"
-        }, void 0, false, {
-            fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 65,
-            columnNumber: 10
-        }, this);
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            href: "/",
-            children: "Home"
-        }, void 0, false, {
-            fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 66,
-            columnNumber: 11
-        }, this);
-        $[6] = t10;
-        $[7] = t7;
-        $[8] = t8;
-        $[9] = t9;
+        $[6] = t7;
+        $[7] = t8;
+        $[8] = t9;
     } else {
-        t10 = $[6];
-        t7 = $[7];
-        t8 = $[8];
-        t9 = $[9];
+        t7 = $[6];
+        t8 = $[7];
+        t9 = $[8];
     }
-    let t11;
-    if ($[10] === Symbol.for("react.memo_cache_sentinel")) {
-        t11 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "hidden md:flex gap-3 text-lg font-bold",
+    let t10;
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "hidden md:flex gap-3 text-lg",
             children: [
                 t7,
                 t8,
                 t9,
-                t10,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                     href: "https://instagram.com/throckmorton.jpg",
                     target: "_blank",
@@ -154,123 +142,123 @@ function Navbar(t0) {
                         className: "text-xl translate-y-[4px]"
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Navbar.tsx",
-                        lineNumber: 79,
-                        columnNumber: 235
+                        lineNumber: 75,
+                        columnNumber: 220
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/layout/Navbar.tsx",
-                    lineNumber: 79,
-                    columnNumber: 84
+                    lineNumber: 75,
+                    columnNumber: 69
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 79,
+            lineNumber: 75,
             columnNumber: 11
         }, this);
-        $[10] = t11;
+        $[9] = t10;
     } else {
-        t11 = $[10];
+        t10 = $[9];
     }
-    let t12;
-    if ($[11] !== open) {
-        t12 = ({
+    let t11;
+    if ($[10] !== open) {
+        t11 = ({
             "Navbar[<button>.onClick]": ()=>setOpen(!open)
         })["Navbar[<button>.onClick]"];
-        $[11] = open;
+        $[10] = open;
+        $[11] = t11;
+    } else {
+        t11 = $[11];
+    }
+    const t12 = `absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${open ? "rotate-45 top-3" : "top-2"}`;
+    let t13;
+    if ($[12] !== t12) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: t12
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Navbar.tsx",
+            lineNumber: 93,
+            columnNumber: 11
+        }, this);
         $[12] = t12;
-    } else {
-        t12 = $[12];
-    }
-    const t13 = `absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${open ? "rotate-45 top-3" : "top-2"}`;
-    let t14;
-    if ($[13] !== t13) {
-        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: t13
-        }, void 0, false, {
-            fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 97,
-            columnNumber: 11
-        }, this);
         $[13] = t13;
-        $[14] = t14;
     } else {
-        t14 = $[14];
+        t13 = $[13];
     }
-    const t15 = `absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${open ? "-rotate-45 top-3" : "top-4"}`;
-    let t16;
-    if ($[15] !== t15) {
-        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: t15
+    const t14 = `absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${open ? "-rotate-45 top-3" : "top-4"}`;
+    let t15;
+    if ($[14] !== t14) {
+        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: t14
         }, void 0, false, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 106,
+            lineNumber: 102,
             columnNumber: 11
         }, this);
+        $[14] = t14;
         $[15] = t15;
-        $[16] = t16;
     } else {
-        t16 = $[16];
+        t15 = $[15];
     }
-    let t17;
-    if ($[17] !== t14 || $[18] !== t16) {
-        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t16;
+    if ($[16] !== t13 || $[17] !== t15) {
+        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "relative w-6 h-6",
             children: [
-                t14,
-                t16
+                t13,
+                t15
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 114,
+            lineNumber: 110,
             columnNumber: 11
         }, this);
-        $[17] = t14;
+        $[16] = t13;
+        $[17] = t15;
         $[18] = t16;
-        $[19] = t17;
     } else {
-        t17 = $[19];
+        t16 = $[18];
     }
-    let t18;
-    if ($[20] !== t12 || $[21] !== t17) {
-        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+    let t17;
+    if ($[19] !== t11 || $[20] !== t16) {
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
             className: "md:hidden p-5 z-[999] relative",
-            onClick: t12,
-            children: t17
+            onClick: t11,
+            children: t16
         }, void 0, false, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 123,
+            lineNumber: 119,
             columnNumber: 11
         }, this);
-        $[20] = t12;
+        $[19] = t11;
+        $[20] = t16;
         $[21] = t17;
-        $[22] = t18;
     } else {
-        t18 = $[22];
+        t17 = $[21];
     }
-    let t19;
-    if ($[23] !== t18 || $[24] !== t6) {
-        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t18;
+    if ($[22] !== t17 || $[23] !== t6) {
+        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-full mx-auto px-10 py-4 flex items-center justify-between",
             children: [
                 t6,
-                t11,
-                t18
+                t10,
+                t17
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 132,
+            lineNumber: 128,
             columnNumber: 11
         }, this);
-        $[23] = t18;
-        $[24] = t6;
-        $[25] = t19;
+        $[22] = t17;
+        $[23] = t6;
+        $[24] = t18;
     } else {
-        t19 = $[25];
+        t18 = $[24];
     }
-    let t20;
-    if ($[26] !== open) {
-        t20 = open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    let t19;
+    if ($[25] !== open) {
+        t19 = open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "fixed inset-0 bg-black/70 backdrop-blur-md animate-overlay z-50 \n                  flex flex-col justify-between items-center \n                  pt-40 pb-16 text-5xl font-light text-white",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -285,20 +273,8 @@ function Navbar(t0) {
                             children: "Portfolio"
                         }, void 0, false, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
-                            lineNumber: 141,
+                            lineNumber: 137,
                             columnNumber: 279
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/contact",
-                            onClick: {
-                                "Navbar[<Link>.onClick]": ()=>setOpen(false)
-                            }["Navbar[<Link>.onClick]"],
-                            className: "menu-item menu-delay-3",
-                            children: "Contact"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/layout/Navbar.tsx",
-                            lineNumber: 143,
-                            columnNumber: 89
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/about",
@@ -309,8 +285,8 @@ function Navbar(t0) {
                             children: "About"
                         }, void 0, false, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
-                            lineNumber: 145,
-                            columnNumber: 87
+                            lineNumber: 139,
+                            columnNumber: 89
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
@@ -321,13 +297,13 @@ function Navbar(t0) {
                             children: "Home"
                         }, void 0, false, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
-                            lineNumber: 147,
+                            lineNumber: 141,
                             columnNumber: 85
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/layout/Navbar.tsx",
-                    lineNumber: 141,
+                    lineNumber: 137,
                     columnNumber: 228
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -339,46 +315,46 @@ function Navbar(t0) {
                         className: "text-4xl translate-y-[2px]"
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Navbar.tsx",
-                        lineNumber: 149,
+                        lineNumber: 143,
                         columnNumber: 247
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/layout/Navbar.tsx",
-                    lineNumber: 149,
+                    lineNumber: 143,
                     columnNumber: 90
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 141,
+            lineNumber: 137,
             columnNumber: 19
         }, this);
-        $[26] = open;
-        $[27] = t20;
+        $[25] = open;
+        $[26] = t19;
     } else {
-        t20 = $[27];
+        t19 = $[26];
     }
-    let t21;
-    if ($[28] !== t19 || $[29] !== t20 || $[30] !== t4) {
-        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+    let t20;
+    if ($[27] !== t18 || $[28] !== t19 || $[29] !== t4) {
+        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
             className: t4,
             children: [
-                t19,
-                t20
+                t18,
+                t19
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 157,
+            lineNumber: 151,
             columnNumber: 11
         }, this);
+        $[27] = t18;
         $[28] = t19;
-        $[29] = t20;
-        $[30] = t4;
-        $[31] = t21;
+        $[29] = t4;
+        $[30] = t20;
     } else {
-        t21 = $[31];
+        t20 = $[30];
     }
-    return t21;
+    return t20;
 }
 _s(Navbar, "e27cRtNMdAs0U0o1oHlS6A8OEBo=");
 _c = Navbar;
