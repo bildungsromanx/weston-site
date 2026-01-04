@@ -2,6 +2,107 @@
 "[project]/src/components/layout/Navbar.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// "use client";
+// import Link from "next/link";
+// import { useState, useEffect } from "react";
+// import Image from "next/image";
+// import { FaInstagram } from "react-icons/fa";
+// export default function Navbar({ variant = "dark" }: { variant?: "light" | "dark" }) {
+//   const [open, setOpen] = useState(false);
+//   // Determine colors based on variant
+//   const isDark = variant === "dark"; // dark = white logo/hamburger
+//   const lineColor = isDark ? "bg-white" : "bg-black";
+//   const textColor = isDark ? "text-white" : "text-black";
+//   useEffect(() => {
+//     document.body.style.overflow = open ? "hidden" : "auto";
+//   }, [open]);
+//   return (
+//     <nav
+//       className={`
+//         w-full 
+//         relative 
+//         z-50 
+//         overflow-x-hidden
+//         bg-transparent
+//         ${textColor}
+//       `}
+//     >
+//       <div className="w-full mx-auto px-10 py-4 flex items-center justify-between">
+//         {/* Logo → homepage button */}
+//         <Link href="/" className="flex items-center">
+//           <Image
+//             src={isDark ? "/logow.png" : "/logow.png"} // ← swap logos
+//             alt="Logo"
+//             width={80}
+//             height={80}
+//             className="block"
+//           />
+//         </Link>
+//         {/* Desktop Menu */}
+//         <div className="hidden md:flex gap-3 text-lg">
+//           <Link href="/drawings">Portfolio</Link>
+//           <Link href="/about">About</Link>
+//           <Link href="/">Home</Link>
+// <a
+//   href="https://instagram.com/throckmorton.jpg"
+//   target="_blank"
+//   rel="noopener noreferrer"
+//   className="opacity-80 hover:opacity-100 transition-opacity"
+// >
+//   <FaInstagram className="text-xl translate-y-[4px]" />
+// </a>
+//         </div>
+//         {/* Mobile Hamburger / X Button */}
+//         <button
+//           className="md:hidden p-5 z-[999] relative"
+//           onClick={() => setOpen(!open)}
+//         >
+//           <div className="relative w-6 h-6">
+//             {/* Top line */}
+//             <span
+//               className={`absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${
+//                 open ? "rotate-45 top-3" : "top-2"
+//               }`}
+//             ></span>
+//             {/* Bottom line */}
+//             <span
+//               className={`absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${
+//                 open ? "-rotate-45 top-3" : "top-4"
+//               }`}
+//             ></span>
+//           </div>
+//         </button>
+//       </div>
+// {open && (
+//   <div className="fixed inset-0 bg-black/70 backdrop-blur-md animate-overlay z-50 
+//                   flex flex-col justify-between items-center 
+//                   pt-40 pb-16 text-5xl font-light text-white">
+//     {/* Top section: menu links */}
+//     <div className="flex flex-col items-center gap-12">
+//       <Link href="/drawings" onClick={() => setOpen(false)} className="menu-item menu-delay-2">
+//         Portfolio
+//       </Link>
+//       <Link href="/about" onClick={() => setOpen(false)} className="menu-item menu-delay-1">
+//         About
+//       </Link>
+//       <Link href="/" onClick={() => setOpen(false)} className="menu-item menu-delay-1">
+//         Home
+//       </Link>
+//     </div>
+//     {/* Bottom section: Instagram icon */}
+//     <a
+//       href="https://instagram.com/throckmorton.jpg"
+//       target="_blank"
+//       rel="noopener noreferrer"
+//       className="opacity-80 hover:opacity-100 transition-opacity mb-10"
+//     >
+//       <FaInstagram className="text-4xl translate-y-[2px]" />
+//     </a>
+//   </div>
+// )}
+//     </nav>
+//   );
+// }
 __turbopack_context__.s([
     "default",
     ()=>Navbar
@@ -12,6 +113,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/fa/index.mjs [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -20,18 +122,20 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
 function Navbar(t0) {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(31);
-    if ($[0] !== "ca06920aa9c695eeec2b92a855a8615bc8c63e8570b98948fb20846a04382587") {
-        for(let $i = 0; $i < 31; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(39);
+    if ($[0] !== "60bd664fa7e064747c4cb1e7df4639ee687a597ea8fe9e37447bbe383a751039") {
+        for(let $i = 0; $i < 39; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "ca06920aa9c695eeec2b92a855a8615bc8c63e8570b98948fb20846a04382587";
+        $[0] = "60bd664fa7e064747c4cb1e7df4639ee687a597ea8fe9e37447bbe383a751039";
     }
     const { variant: t1 } = t0;
     const variant = t1 === undefined ? "dark" : t1;
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
     const isDark = variant === "dark";
     const lineColor = isDark ? "bg-white" : "bg-black";
     const textColor = isDark ? "text-white" : "text-black";
@@ -76,12 +180,12 @@ function Navbar(t0) {
                 className: "block"
             }, void 0, false, {
                 fileName: "[project]/src/components/layout/Navbar.tsx",
-                lineNumber: 52,
+                lineNumber: 169,
                 columnNumber: 55
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 52,
+            lineNumber: 169,
             columnNumber: 10
         }, this);
         $[4] = t5;
@@ -89,177 +193,203 @@ function Navbar(t0) {
     } else {
         t6 = $[5];
     }
-    let t7;
+    const t7 = `${"opacity-80 hover:opacity-100 transition-opacity"} ${pathname.startsWith("/drawings") || pathname.startsWith("/gallery") ? "underline underline-offset-4" : ""}`;
     let t8;
-    let t9;
-    if ($[6] === Symbol.for("react.memo_cache_sentinel")) {
-        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+    if ($[6] !== t7) {
+        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
             href: "/drawings",
+            className: t7,
             children: "Portfolio"
         }, void 0, false, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 62,
-            columnNumber: 10
-        }, this);
-        t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            href: "/about",
-            children: "About"
-        }, void 0, false, {
-            fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 63,
-            columnNumber: 10
-        }, this);
-        t9 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            href: "/",
-            children: "Home"
-        }, void 0, false, {
-            fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 64,
+            lineNumber: 178,
             columnNumber: 10
         }, this);
         $[6] = t7;
         $[7] = t8;
-        $[8] = t9;
     } else {
-        t7 = $[6];
         t8 = $[7];
-        t9 = $[8];
     }
+    const t9 = `${"opacity-80 hover:opacity-100 transition-opacity"} ${pathname === "/about" ? "underline underline-offset-4" : ""}`;
     let t10;
-    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
-        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "hidden md:flex gap-3 text-lg",
-            children: [
-                t7,
-                t8,
-                t9,
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                    href: "https://instagram.com/throckmorton.jpg",
-                    target: "_blank",
-                    rel: "noopener noreferrer",
-                    className: "opacity-80 hover:opacity-100 transition-opacity",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaInstagram"], {
-                        className: "text-xl translate-y-[4px]"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/layout/Navbar.tsx",
-                        lineNumber: 75,
-                        columnNumber: 220
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/components/layout/Navbar.tsx",
-                    lineNumber: 75,
-                    columnNumber: 69
-                }, this)
-            ]
-        }, void 0, true, {
+    if ($[8] !== t9) {
+        t10 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            href: "/about",
+            className: t9,
+            children: "About"
+        }, void 0, false, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 75,
+            lineNumber: 187,
             columnNumber: 11
         }, this);
+        $[8] = t9;
         $[9] = t10;
     } else {
         t10 = $[9];
     }
-    let t11;
-    if ($[10] !== open) {
-        t11 = ({
-            "Navbar[<button>.onClick]": ()=>setOpen(!open)
-        })["Navbar[<button>.onClick]"];
-        $[10] = open;
-        $[11] = t11;
+    const t11 = `${"opacity-80 hover:opacity-100 transition-opacity"} ${pathname === "/" ? "underline underline-offset-4" : ""}`;
+    let t12;
+    if ($[10] !== t11) {
+        t12 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            href: "/",
+            className: t11,
+            children: "Home"
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Navbar.tsx",
+            lineNumber: 196,
+            columnNumber: 11
+        }, this);
+        $[10] = t11;
+        $[11] = t12;
     } else {
-        t11 = $[11];
+        t12 = $[11];
     }
-    const t12 = `absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${open ? "rotate-45 top-3" : "top-2"}`;
     let t13;
-    if ($[12] !== t12) {
-        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: t12
+    if ($[12] === Symbol.for("react.memo_cache_sentinel")) {
+        t13 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+            href: "https://instagram.com/throckmorton.jpg",
+            target: "_blank",
+            rel: "noopener noreferrer",
+            className: "opacity-80 hover:opacity-100 transition-opacity",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaInstagram"], {
+                className: "text-xl translate-y-[4px]"
+            }, void 0, false, {
+                fileName: "[project]/src/components/layout/Navbar.tsx",
+                lineNumber: 204,
+                columnNumber: 162
+            }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 93,
+            lineNumber: 204,
             columnNumber: 11
         }, this);
-        $[12] = t12;
-        $[13] = t13;
+        $[12] = t13;
     } else {
-        t13 = $[13];
+        t13 = $[12];
     }
-    const t14 = `absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${open ? "-rotate-45 top-3" : "top-4"}`;
-    let t15;
-    if ($[14] !== t14) {
-        t15 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-            className: t14
-        }, void 0, false, {
-            fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 102,
-            columnNumber: 11
-        }, this);
-        $[14] = t14;
-        $[15] = t15;
-    } else {
-        t15 = $[15];
-    }
-    let t16;
-    if ($[16] !== t13 || $[17] !== t15) {
-        t16 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "relative w-6 h-6",
+    let t14;
+    if ($[13] !== t10 || $[14] !== t12 || $[15] !== t8) {
+        t14 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "hidden md:flex gap-3 text-lg items-center",
             children: [
-                t13,
-                t15
+                t8,
+                t10,
+                t12,
+                t13
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 110,
+            lineNumber: 211,
             columnNumber: 11
         }, this);
-        $[16] = t13;
-        $[17] = t15;
-        $[18] = t16;
+        $[13] = t10;
+        $[14] = t12;
+        $[15] = t8;
+        $[16] = t14;
     } else {
-        t16 = $[18];
+        t14 = $[16];
     }
+    let t15;
+    if ($[17] !== open) {
+        t15 = ({
+            "Navbar[<button>.onClick]": ()=>setOpen(!open)
+        })["Navbar[<button>.onClick]"];
+        $[17] = open;
+        $[18] = t15;
+    } else {
+        t15 = $[18];
+    }
+    const t16 = `absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${open ? "rotate-45 top-3" : "top-2"}`;
     let t17;
-    if ($[19] !== t11 || $[20] !== t16) {
-        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-            className: "md:hidden p-5 z-[999] relative",
-            onClick: t11,
-            children: t16
+    if ($[19] !== t16) {
+        t17 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: t16
         }, void 0, false, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 119,
+            lineNumber: 232,
             columnNumber: 11
         }, this);
-        $[19] = t11;
-        $[20] = t16;
-        $[21] = t17;
+        $[19] = t16;
+        $[20] = t17;
     } else {
-        t17 = $[21];
+        t17 = $[20];
     }
-    let t18;
-    if ($[22] !== t17 || $[23] !== t6) {
-        t18 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+    const t18 = `absolute left-0 block h-[1.5px] w-6 ${lineColor} transform transition-all duration-300 ${open ? "-rotate-45 top-3" : "top-4"}`;
+    let t19;
+    if ($[21] !== t18) {
+        t19 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: t18
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Navbar.tsx",
+            lineNumber: 241,
+            columnNumber: 11
+        }, this);
+        $[21] = t18;
+        $[22] = t19;
+    } else {
+        t19 = $[22];
+    }
+    let t20;
+    if ($[23] !== t17 || $[24] !== t19) {
+        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "relative w-6 h-6",
+            children: [
+                t17,
+                t19
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/layout/Navbar.tsx",
+            lineNumber: 249,
+            columnNumber: 11
+        }, this);
+        $[23] = t17;
+        $[24] = t19;
+        $[25] = t20;
+    } else {
+        t20 = $[25];
+    }
+    let t21;
+    if ($[26] !== t15 || $[27] !== t20) {
+        t21 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+            className: "md:hidden p-5 z-[999] relative",
+            onClick: t15,
+            children: t20
+        }, void 0, false, {
+            fileName: "[project]/src/components/layout/Navbar.tsx",
+            lineNumber: 258,
+            columnNumber: 11
+        }, this);
+        $[26] = t15;
+        $[27] = t20;
+        $[28] = t21;
+    } else {
+        t21 = $[28];
+    }
+    let t22;
+    if ($[29] !== t14 || $[30] !== t21 || $[31] !== t6) {
+        t22 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "w-full mx-auto px-10 py-4 flex items-center justify-between",
             children: [
                 t6,
-                t10,
-                t17
+                t14,
+                t21
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 128,
+            lineNumber: 267,
             columnNumber: 11
         }, this);
-        $[22] = t17;
-        $[23] = t6;
-        $[24] = t18;
+        $[29] = t14;
+        $[30] = t21;
+        $[31] = t6;
+        $[32] = t22;
     } else {
-        t18 = $[24];
+        t22 = $[32];
     }
-    let t19;
-    if ($[25] !== open) {
-        t19 = open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "fixed inset-0 bg-black/70 backdrop-blur-md animate-overlay z-50 \n                  flex flex-col justify-between items-center \n                  pt-40 pb-16 text-5xl font-light text-white",
+    let t23;
+    if ($[33] !== open) {
+        t23 = open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "fixed inset-0 bg-black/70 backdrop-blur-md animate-overlay z-50 \n                     flex flex-col justify-between items-center \n                     pt-40 pb-16 text-5xl font-light text-white",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col items-center gap-12",
@@ -273,8 +403,8 @@ function Navbar(t0) {
                             children: "Portfolio"
                         }, void 0, false, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
-                            lineNumber: 137,
-                            columnNumber: 279
+                            lineNumber: 277,
+                            columnNumber: 285
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             href: "/about",
@@ -285,7 +415,7 @@ function Navbar(t0) {
                             children: "About"
                         }, void 0, false, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
-                            lineNumber: 139,
+                            lineNumber: 279,
                             columnNumber: 89
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -297,14 +427,14 @@ function Navbar(t0) {
                             children: "Home"
                         }, void 0, false, {
                             fileName: "[project]/src/components/layout/Navbar.tsx",
-                            lineNumber: 141,
+                            lineNumber: 281,
                             columnNumber: 85
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/layout/Navbar.tsx",
-                    lineNumber: 137,
-                    columnNumber: 228
+                    lineNumber: 277,
+                    columnNumber: 234
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                     href: "https://instagram.com/throckmorton.jpg",
@@ -315,48 +445,52 @@ function Navbar(t0) {
                         className: "text-4xl translate-y-[2px]"
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Navbar.tsx",
-                        lineNumber: 143,
+                        lineNumber: 283,
                         columnNumber: 247
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/layout/Navbar.tsx",
-                    lineNumber: 143,
+                    lineNumber: 283,
                     columnNumber: 90
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 137,
+            lineNumber: 277,
             columnNumber: 19
         }, this);
-        $[25] = open;
-        $[26] = t19;
+        $[33] = open;
+        $[34] = t23;
     } else {
-        t19 = $[26];
+        t23 = $[34];
     }
-    let t20;
-    if ($[27] !== t18 || $[28] !== t19 || $[29] !== t4) {
-        t20 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+    let t24;
+    if ($[35] !== t22 || $[36] !== t23 || $[37] !== t4) {
+        t24 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
             className: t4,
             children: [
-                t18,
-                t19
+                t22,
+                t23
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/layout/Navbar.tsx",
-            lineNumber: 151,
+            lineNumber: 291,
             columnNumber: 11
         }, this);
-        $[27] = t18;
-        $[28] = t19;
-        $[29] = t4;
-        $[30] = t20;
+        $[35] = t22;
+        $[36] = t23;
+        $[37] = t4;
+        $[38] = t24;
     } else {
-        t20 = $[30];
+        t24 = $[38];
     }
-    return t20;
+    return t24;
 }
-_s(Navbar, "e27cRtNMdAs0U0o1oHlS6A8OEBo=");
+_s(Navbar, "cPPloHdmmqpvPwaD00PIccMz5O4=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
+    ];
+});
 _c = Navbar;
 var _c;
 __turbopack_context__.k.register(_c, "Navbar");

@@ -1,5 +1,14 @@
 {
   "app": {
+    "[project]/src/app/about/page": [
+      "static/media/16e0e94777d7bd9f-s.p.53426b5e.woff2"
+    ],
+    "[project]/src/app/drawings/page": [
+      "static/media/16e0e94777d7bd9f-s.p.53426b5e.woff2"
+    ],
+    "[project]/src/app/gallery/page": [
+      "static/media/16e0e94777d7bd9f-s.p.53426b5e.woff2"
+    ],
     "[project]/src/app/page": [
       "static/media/16e0e94777d7bd9f-s.p.53426b5e.woff2"
     ]
