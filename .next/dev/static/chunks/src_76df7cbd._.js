@@ -707,11 +707,11 @@ var _s = __turbopack_context__.k.signature();
 function GalleryPage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(19);
-    if ($[0] !== "fb1d01006c7ef7de6181c77fe66d65e082b3c72aab3a31a654921b0423c06e2c") {
+    if ($[0] !== "37f3cd700b1a2f7e6ed08bee3772e98877ce6e1a8c2c2e7f5d8265eef1246598") {
         for(let $i = 0; $i < 19; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "fb1d01006c7ef7de6181c77fe66d65e082b3c72aab3a31a654921b0423c06e2c";
+        $[0] = "37f3cd700b1a2f7e6ed08bee3772e98877ce6e1a8c2c2e7f5d8265eef1246598";
     }
     const [index, setIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     let t0;
@@ -751,7 +751,7 @@ function GalleryPage() {
         }, this);
         t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             className: "text-center max-w-2xl mx-auto mt-6 mb-12 text-md leading-relaxed",
-            children: "These monochromatic drawings is a continuous meditative series that largely uses techniques used in automatic drawing. With motifs seen in medieval tapestries, through a kaleidoscope lens of visual storytelling- Hidden Waters is a series that is veiled in layers of graphite with imagery viewed as fragments of lost dreams"
+            children: "Hidden Waters is a continuous series of monochromatic drawings that started in 2024. The technique of automatism, known as automatic drawing, is used in this series. This technique allows the subconscious to produce spontaneous movements and gestures without conscious movements taking over. With motifs seen in medieval tapestries, through a kaleidoscope lens of visual storytelling- Hidden Waters is a series that is veiled in layers of graphite with imagery viewed as dream-like fragments.        "
         }, void 0, false, {
             fileName: "[project]/src/app/gallery/page.tsx",
             lineNumber: 84,

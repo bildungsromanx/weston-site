@@ -536,7 +536,7 @@ function GalleryPage() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-center max-w-2xl mx-auto mt-6 mb-12 text-md leading-relaxed",
-                    children: "These monochromatic drawings is a continuous meditative series that largely uses techniques used in automatic drawing. With motifs seen in medieval tapestries, through a kaleidoscope lens of visual storytelling- Hidden Waters is a series that is veiled in layers of graphite with imagery viewed as fragments of lost dreams"
+                    children: "Hidden Waters is a continuous series of monochromatic drawings that started in 2024. The technique of automatism, known as automatic drawing, is used in this series. This technique allows the subconscious to produce spontaneous movements and gestures without conscious movements taking over. With motifs seen in medieval tapestries, through a kaleidoscope lens of visual storytelling- Hidden Waters is a series that is veiled in layers of graphite with imagery viewed as dream-like fragments.        "
                 }, void 0, false, {
                     fileName: "[project]/src/app/gallery/page.tsx",
                     lineNumber: 66,
@@ -552,7 +552,7 @@ function GalleryPage() {
                             className: "object-contain transition-opacity duration-500"
                         }, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$drawings$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["drawings"][index].src, false, {
                             fileName: "[project]/src/app/gallery/page.tsx",
-                            lineNumber: 72,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -561,7 +561,7 @@ function GalleryPage() {
                             children: "←"
                         }, void 0, false, {
                             fileName: "[project]/src/app/gallery/page.tsx",
-                            lineNumber: 81,
+                            lineNumber: 80,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -570,13 +570,13 @@ function GalleryPage() {
                             children: "→"
                         }, void 0, false, {
                             fileName: "[project]/src/app/gallery/page.tsx",
-                            lineNumber: 94,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/gallery/page.tsx",
-                    lineNumber: 71,
+                    lineNumber: 70,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -597,22 +597,22 @@ function GalleryPage() {
                                     className: "object-contain bg-[#f0ebe4]"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/gallery/page.tsx",
-                                    lineNumber: 122,
+                                    lineNumber: 121,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/gallery/page.tsx",
-                                lineNumber: 115,
+                                lineNumber: 114,
                                 columnNumber: 15
                             }, this)
                         }, i, false, {
                             fileName: "[project]/src/app/gallery/page.tsx",
-                            lineNumber: 110,
+                            lineNumber: 109,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/src/app/gallery/page.tsx",
-                    lineNumber: 108,
+                    lineNumber: 107,
                     columnNumber: 9
                 }, this)
             ]

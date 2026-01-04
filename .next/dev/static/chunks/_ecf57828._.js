@@ -13,11 +13,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 function Footer() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "cfc92cb9112f4d56f1e5819cbf2e9abdaee01ed0078da2f7cf7a2b1754fa8b01") {
+    if ($[0] !== "eb3fca3777bd1323330b2460d187d43e21a78694ed23f50888e511d3ae70339d") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "cfc92cb9112f4d56f1e5819cbf2e9abdaee01ed0078da2f7cf7a2b1754fa8b01";
+        $[0] = "eb3fca3777bd1323330b2460d187d43e21a78694ed23f50888e511d3ae70339d";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -27,20 +27,12 @@ function Footer() {
                 className: "max-w-2xl mx-auto flex flex-col items-center",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-3xl tracking-wide mb-4",
+                        className: "text-2xl tracking-wide mb-4",
                         children: "Weston Throckmorton"
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Footer.tsx",
                         lineNumber: 14,
                         columnNumber: 237
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-sm opacity-70 max-w-md mb-6 leading-relaxed",
-                        children: "“do you want a quote here?”"
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/layout/Footer.tsx",
-                        lineNumber: 14,
-                        columnNumber: 305
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "mailto:westonthrockmorton@gmail.com",
@@ -49,7 +41,7 @@ function Footer() {
                     }, void 0, false, {
                         fileName: "[project]/src/components/layout/Footer.tsx",
                         lineNumber: 14,
-                        columnNumber: 400
+                        columnNumber: 305
                     }, this)
                 ]
             }, void 0, true, {

@@ -25,7 +25,7 @@ export default function AboutPage() {
 
         <div className="w-full max-w-sm">
           <Image
-            src="/about.jpg"
+            src="/details/about.webp"
             alt="Weston"
             width={600}
             height={600}

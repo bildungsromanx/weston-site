@@ -64,8 +64,7 @@ export default function GalleryPage() {
         </h1>
 
         <p className="text-center max-w-2xl mx-auto mt-6 mb-12 text-md leading-relaxed">
-          These monochromatic drawings is a continuous meditative series that largely uses techniques used in automatic drawing. With motifs seen in medieval tapestries, through a kaleidoscope lens of visual storytelling- Hidden Waters is a series that is veiled in layers of graphite with imagery viewed as fragments of lost dreams
-        </p>
+Hidden Waters is a continuous series of monochromatic drawings that started in 2024. The technique of automatism, known as automatic drawing, is used in this series. This technique allows the subconscious to produce spontaneous movements and gestures without conscious movements taking over. With motifs seen in medieval tapestries, through a kaleidoscope lens of visual storytelling- Hidden Waters is a series that is veiled in layers of graphite with imagery viewed as dream-like fragments.        </p>
 
         {/* Main slideshow */}
         <div className="relative w-full aspect-[4/3] overflow-hidden rounded-md bg-[#FFFFFF]">
