@@ -82,7 +82,7 @@ Hidden Waters is a continuous series of monochromatic drawings that started in 2
             className="
               absolute left-4 top-1/2 -translate-y-1/2
               bg-white/60 hover:bg-white/80
-              text-black px-3 py-1 
+              text-black px-1 py-1 
               transition
             "
           >
@@ -95,7 +95,7 @@ Hidden Waters is a continuous series of monochromatic drawings that started in 2
             className="
               absolute right-4 top-1/2 -translate-y-1/2
               bg-white/60 hover:bg-white/80
-              text-black px-3 py-1
+              text-black px-1 py-1
               transition
             "
           >
@@ -122,7 +122,7 @@ Hidden Waters is a continuous series of monochromatic drawings that started in 2
                   src={item.src}
                   alt=""
                   fill
-                  className="object-contain bg-[#f0ebe4]"
+                  className="object-contain bg-[#FFFFFF]"
                 />
               </div>
             </button>
