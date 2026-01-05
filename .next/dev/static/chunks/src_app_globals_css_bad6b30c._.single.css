@@ -51,7 +51,6 @@
     --container-xl: 36rem;
     --container-2xl: 42rem;
     --container-4xl: 56rem;
-    --container-6xl: 72rem;
     --text-sm: .875rem;
     --text-sm--line-height: calc(1.25 / .875);
     --text-base: 1rem;
@@ -362,12 +361,32 @@
     top: calc(var(--spacing) * 4);
   }
 
+  .right-1 {
+    right: calc(var(--spacing) * 1);
+  }
+
+  .right-2 {
+    right: calc(var(--spacing) * 2);
+  }
+
   .right-4 {
     right: calc(var(--spacing) * 4);
   }
 
   .left-0 {
     left: calc(var(--spacing) * 0);
+  }
+
+  .left-0\.5 {
+    left: calc(var(--spacing) * .5);
+  }
+
+  .left-0\.25 {
+    left: calc(var(--spacing) * .25);
+  }
+
+  .left-1 {
+    left: calc(var(--spacing) * 1);
   }
 
   .left-4 {
@@ -426,10 +445,6 @@
     display: flex;
   }
 
-  .grid {
-    display: grid;
-  }
-
   .hidden {
     display: none;
   }
@@ -486,10 +501,6 @@
     max-width: var(--container-4xl);
   }
 
-  .max-w-6xl {
-    max-width: var(--container-6xl);
-  }
-
   .max-w-sm {
     max-width: var(--container-sm);
   }
@@ -529,10 +540,6 @@
     transform: var(--tw-rotate-x, ) var(--tw-rotate-y, ) var(--tw-rotate-z, ) var(--tw-skew-x, ) var(--tw-skew-y, );
   }
 
-  .grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-
   .flex-col {
     flex-direction: column;
   }
@@ -555,10 +562,6 @@
 
   .gap-4 {
     gap: calc(var(--spacing) * 4);
-  }
-
-  .gap-6 {
-    gap: calc(var(--spacing) * 6);
   }
 
   .gap-12 {
@@ -587,10 +590,6 @@
 
   .bg-\[\#FFFFFF\] {
     background-color: #fff;
-  }
-
-  .bg-\[\#f0ebe4\] {
-    background-color: #f0ebe4;
   }
 
   .bg-black {
@@ -653,10 +652,6 @@
     padding-inline: calc(var(--spacing) * 1);
   }
 
-  .px-3 {
-    padding-inline: calc(var(--spacing) * 3);
-  }
-
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -687,10 +682,6 @@
 
   .pt-24 {
     padding-top: calc(var(--spacing) * 24);
-  }
-
-  .pt-32 {
-    padding-top: calc(var(--spacing) * 32);
   }
 
   .pt-40 {
@@ -862,18 +853,6 @@
   }
 
   @media (hover: hover) {
-    .group-hover\:scale-\[1\.03\]:is(:where(.group):hover *) {
-      scale: 1.03;
-    }
-  }
-
-  @media (hover: hover) {
-    .group-hover\:opacity-90:is(:where(.group):hover *) {
-      opacity: .9;
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:-translate-y-0\.5:hover {
       --tw-translate-y: calc(var(--spacing) * -.5);
       translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -912,12 +891,6 @@
     }
   }
 
-  @media (min-width: 40rem) {
-    .sm\:grid-cols-2 {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-
   @media (min-width: 48rem) {
     .md\:flex {
       display: flex;
@@ -927,12 +900,6 @@
   @media (min-width: 48rem) {
     .md\:hidden {
       display: none;
-    }
-  }
-
-  @media (min-width: 48rem) {
-    .md\:grid-cols-3 {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 

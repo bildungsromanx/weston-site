@@ -1,20 +1,137 @@
-[00:00:00.876] Server  LOG      ✓ Ready in 665ms
-[00:00:08.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.276] Browser WARN    Image with src "/logow.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:08.276] Browser WARN    Image with src "/logow.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
-Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:00:13.232] Browser WARN    Image with src "/drawing/4.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.232] Browser WARN    Image with src "/drawing/1.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.232] Browser WARN    Image with src "/drawing/2.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.232] Browser WARN    Image with src "/drawing/3.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.232] Browser WARN    Image with src "/drawing/5.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.232] Browser WARN    Image with src "/drawing/6.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.232] Browser WARN    Image with src "/drawing/10.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.232] Browser WARN    Image with src "/drawing/9.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.232] Browser WARN    Image with src "/drawing/11.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.232] Browser WARN    Image with src "/drawing/7.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.232] Browser WARN    Image with src "/drawing/8.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:13.232] Browser WARN    Image with src "/drawing/12.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:26.674] Server  LOG      ✓ Compiled in 71ms
-[00:02:09.592] Server  LOG      ✓ Compiled in 72ms
-[00:02:17.024] Server  LOG      ✓ Compiled in 55ms
+[00:00:00.833] Server  LOG      ✓ Ready in 645ms
+[00:00:06.456] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="gallery/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/gallery" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="gallery/pa...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function GalleryPage} serverProvidedParams={{...}}>
+                      <GalleryPage params={Promise} searchParams={Promise}>
+                        <PageWithNavbar variant="light">
+                          <Navbar>
+                          <main className="pt-2 pb-20...">
+                            <h1>
+                            <p>
+                            <div className="relative w...">
+                              <img>
+                              <button
+                                onClick={function GalleryPage[prev_0]}
++                               className={"\n              absolute left-4 top-1/2 -translate-y-1/2\n              b..."}
+-                               className={" absolute left-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white/80 t..."}
+                              >
++                               ←
+                              <button
+                                onClick={function GalleryPage[next]}
++                               className={"\n              absolute right-4 top-1/2 -translate-y-1/2\n              ..."}
+-                               className={" absolute right-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white/80 ..."}
+                              >
++                               →
+                            ...
+                  ...
+                ...
+      ...
+
+[00:00:06.456] Browser WARN    Image with src "/logow.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:06.456] Browser WARN    Image with src "/drawing/1.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.456] Browser WARN    Image with src "/drawing/2.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.456] Browser WARN    Image with src "/drawing/3.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.456] Browser WARN    Image with src "/drawing/4.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.456] Browser WARN    Image with src "/drawing/5.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.456] Browser WARN    Image with src "/drawing/6.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.456] Browser WARN    Image with src "/drawing/7.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.456] Browser WARN    Image with src "/drawing/8.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.456] Browser WARN    Image with src "/drawing/9.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:18.246] Browser WARN    Image with src "/drawing/10.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:18.246] Browser WARN    Image with src "/drawing/11.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:18.246] Browser WARN    Image with src "/drawing/12.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:26.684] Server  LOG      ✓ Compiled in 61ms
+[00:00:29.755] Server  LOG      ✓ Compiled in 45ms
+[00:00:32.115] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:32.503] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="gallery/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/gallery" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="gallery/pa...">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function GalleryPage} serverProvidedParams={{...}}>
+                      <GalleryPage params={Promise} searchParams={Promise}>
+                        <PageWithNavbar variant="light">
+                          <Navbar>
+                          <main className="pt-2 pb-20...">
+                            <h1>
+                            <p>
+                            <div className="relative w...">
+                              <img>
+                              <button
+                                onClick={function GalleryPage[prev_0]}
++                               className={"\n              absolute left-4 top-1/2 -translate-y-1/2\n              b..."}
+-                               className={" absolute left-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white/80 t..."}
+                              >
++                               ←
+                              <button
+                                onClick={function GalleryPage[next]}
++                               className={"\n              absolute right-4 top-1/2 -translate-y-1/2\n              ..."}
+-                               className={" absolute right-4 top-1/2 -translate-y-1/2 bg-white/60 hover:bg-white/80 ..."}
+                              >
++                               →
+                            ...
+                  ...
+                ...
+      ...
+
+[00:00:32.503] Browser WARN    Image with src "/logow.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:32.503] Browser WARN    Image with src "/drawing/1.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.503] Browser WARN    Image with src "/drawing/2.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.503] Browser WARN    Image with src "/drawing/3.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.503] Browser WARN    Image with src "/drawing/4.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.503] Browser WARN    Image with src "/drawing/5.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.503] Browser WARN    Image with src "/drawing/6.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.503] Browser WARN    Image with src "/drawing/7.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.503] Browser WARN    Image with src "/drawing/8.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.503] Browser WARN    Image with src "/drawing/9.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.503] Browser WARN    Image with src "/drawing/10.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.503] Browser WARN    Image with src "/drawing/11.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:32.503] Browser WARN    Image with src "/drawing/12.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:25.403] Server  LOG      ✓ Compiled in 126ms
+[00:05:02.605] Server  LOG      ✓ Compiled in 86ms
+[00:05:06.413] Server  LOG      ✓ Compiled in 32ms
+[00:05:13.680] Server  LOG      ✓ Compiled in 85ms
+[00:05:19.216] Server  LOG      ✓ Compiled in 38ms
+[00:05:21.843] Server  LOG      ✓ Compiled in 61ms
+[00:05:25.306] Server  LOG      ✓ Compiled in 42ms
+[00:05:28.699] Server  LOG      ✓ Compiled in 61ms
+[00:07:13.249] Browser WARN    Image with src "/drawing/13.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:13.632] Browser WARN    Image with src "/drawing/14.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:14.153] Browser WARN    Image with src "/drawing/15.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
